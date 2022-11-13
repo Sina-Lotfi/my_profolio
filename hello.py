@@ -23,7 +23,7 @@ def html_page(page_name):
         #subjet = data["subject"]
         #file = databse.write(f'email: {email}, subject: {subjet}, message:{message} \n')
 def write_csv(data):
-    with open("D:\Codes\Web\database.csv", mode="a", newline='') as database:
+    with open("Web\database.csv", mode="a", newline='') as database:
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
